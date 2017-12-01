@@ -23,7 +23,7 @@ class bookItem:
 
 同时我们可以在类中加上将对象转成字符串的方法。
 
-```
+```python
 def itemString(self):
     result = "-------------------------------------------------------\n"
     result += self.title+"\n"
@@ -33,7 +33,7 @@ def itemString(self):
     return result
 ```
 ③ 接下来添加文本输入文件的方法
-```
+```python
 def writeToFile(save_path,filename,content):
     if not os.path.exists(save_path):
         os.makedirs(save_path)
