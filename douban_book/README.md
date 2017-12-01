@@ -11,7 +11,7 @@
 ![](http://p09g2sw3y.bkt.clouddn.com/spider_1_1.jpg)
 ② 分析所需内容并创建图书类，我们需要标题、基础信息、打分、打分人数以及图书图片
 
-```
+```python
 class bookItem:
     def __init__(self,title,base_info,star,star_amount,img):
         self.title=title.strip()
