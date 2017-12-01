@@ -12,9 +12,6 @@
 	② 分析所需内容并创建图书类，我们需要标题、基础信息、打分、打分人数以及图书图片
 	```python
 	class bookItem:
-	    '''
-	    图书对象
-	    '''
 	    def __init__(self,title,base_info,star,star_amount,img):
 	        self.title=title.strip()
 	        self.base_info = base_info.strip()
@@ -35,13 +32,6 @@
 	③ 接下来添加文本输入文件的方法
 	```python
 	def writeToFile(save_path,filename,content):
-	    '''  
-	    将文本内容追加到指定目录文件中，若目录或文件不存在则先创建
-	    :Args:
-	     - save_path - 文件所在目录
-	     - filename - 文件名（带后缀）
-	     - content - 追加的文本内容
-	    '''
 	    if not os.path.exists(save_path):
 	        os.makedirs(save_path)
 	    path = save_path+"/"+filename
