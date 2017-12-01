@@ -1,11 +1,11 @@
 # 爬取豆瓣读书
 ****
 ## 目录
-* [books.py](#第一个爬虫bookes_py)
+* [books.py](#第一个爬虫bookespy)
 	* 收集豆瓣图书python分类下前20本书，并将内容输入到文本中
-* [books_mysql.py](#第二个爬虫books_mysql.py)
+* [books_mysql.py](#第二个爬虫books_mysqlpy)
 	* 在第一个的基础上，将内容保存到mysql数据库中
-## 第一个爬虫bookes_py
+## 第一个爬虫bookes.py
 ### 作用
 	收集豆瓣图书python分类下前20本书，并将内容输入到文本中，格式如下图
 ![](http://p09g2sw3y.bkt.clouddn.com/python_spider_1_0.png)
